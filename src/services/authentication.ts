@@ -11,8 +11,8 @@ export class Authentication {
 
 logOut(){
     return this.angularAuth.auth.signOut().then(()=>{
-        this.token=null
-    })
+        this.token=null;
+    });
 }
 
 setUp(){
